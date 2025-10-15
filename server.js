@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 
-const allowedOrigins = ['http://localhost:5173'];
+const allowedOrigins = ['https://jwtprojectfrontend.netlify.app','http://localhost:5173'];
 
 const corsOptions = {
   origin: function (origin, callback) {
